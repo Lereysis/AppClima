@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url("../assets/noche.jpg");
+    background-size: cover;
+    background-position: center center; */
+    background-color: rgb(240, 240, 240)
+}
+
+input {
+    width: 200px;
+    height: 35px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px ;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: 91.8%;
+    overflow: hidden;
+}
+
+.container-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card-info {
+    background: rgb(30, 107, 221);
+    background: linear-gradient(
+    0deg,
+    rgba(30, 107, 221, 1) 0%, 
+    rgba(3, 116, 255, 1) 42%,
+    rgba(3, 191, 255, 1) 100%
+    );
+    border-radius: 40px;
+    padding: 40px;
+    -webkit-box-shadow: 10px 10px 17px -10px rgba(179,173,179,1);
+    -moz-box-shadow: 10px 10px 17px -10px rgba(179,173,179,1);
+    box-shadow: 10px 10px 17px -10px rgba(179,173,179,1);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card-body img {
+    width: 100%;
+}
+
+.imagen-container {
+    width: 100px;
+}
+
+.card-footer {
+    display: flex;
+    gap: 40px;
+}
+
+.info-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#boton {
+    background-color: rgb(43, 226, 67);
+    border: none;
+    width: 70px;
+    height: 35px;
+    border-radius: 8px;
+    color:  rgb(255, 255, 255) ;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    background-color: #c9c9c9 ;
+    padding: 1rem 0;
+    color: #000;
+}
